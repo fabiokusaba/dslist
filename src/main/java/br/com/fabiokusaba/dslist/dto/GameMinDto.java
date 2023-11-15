@@ -1,8 +1,8 @@
 package br.com.fabiokusaba.dslist.dto;
 
 import br.com.fabiokusaba.dslist.entities.Game;
-import jakarta.persistence.Column;
 
+//Objeto de transferência de dados para expormos apenas os dados que queremos
 public class GameMinDto {
 
     private Long id;
